@@ -245,6 +245,6 @@ openMenu.addEventListener("click", function(){
   navLinks.style.transform = "translate(0)"
 })
 
-navLinks.addEventListener("click", function() {
+document.querySelector(".close").addEventListener("click", function() {
   navLinks.style.transform = "translate(100%)"
 })
